@@ -1,0 +1,117 @@
+@import url(/imports/app.css);
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 256px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222222;
+}
+
+.menu img{
+    padding-left: 24px;
+}
+
+.menu__items{
+    display: flex;
+    gap: 8px;
+    margin-right: 16px;
+    color: #fff;
+    padding-left: 9px;
+}
+
+.tarjetas{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    flex-wrap: wrap;
+}
+
+.tarjetas__delivery {
+    position: relative;
+}
+
+.tarjetas__delivery--text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px 24px ;
+    font-size: 24px;
+    color: red;
+}
+
+.tarjetas__delivery--text span{
+    color: #fff;
+    
+}
+.tarjetas__white{
+    width: 490px;
+    height: 350px;
+    background: #fff;
+    
+}
+
+.tarjetas__white--centro{
+    display: flex;
+}
+
+.arbolito{
+    width: 130px;
+}
+.tarjetas__white h2{
+    text-align: center;
+    margin: 24px 0;
+    color: red;
+    font-size: 24px;
+
+}
+
+.tarjetas__white h3{
+    margin: 24px 64px;
+    font-size: 20px;
+
+}
+
+.tarjetas__white ul{
+    margin: 0 56px;
+}
+
+.tarjetas__white ul li{
+    padding: 6.4px 0;
+    list-style-type:decimal;
+}
+
+
+.footer--caja{
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer--items{
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+}
+
+.footer img{
+    
+    padding-right: 24px;
+}
